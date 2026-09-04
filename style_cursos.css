@@ -1,0 +1,250 @@
+body {
+  margin: 0;
+  background: #f1f3f5;
+  color: #263238;
+  font-family: Arial, sans-serif;
+}
+.pagina {
+  width: 90%;
+  margin: auto;
+}
+.navegacao {
+  display: grid;
+  grid-template-columns: 180px 2fr 180px;
+  align-items: center;
+  justify-items: center;
+  height: 92px;
+  margin-bottom: 38px;
+  border-radius: 0 0 16px 16px;
+}
+.navegacao img {
+  height: 82px;
+  margin-left: 100px;
+}
+.navegacao input {
+  width: 180px;
+  height: 30px;
+}
+.navegacao ul,
+.curso ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+.navegacao ul {
+  font-size: 28px;
+}
+.navegacao a {
+  text-decoration: none;
+}
+.navegacao a:hover {
+  transform: scale(1.08);
+}
+.curso h1 {
+  margin-bottom: 12px;
+}
+.categoria {
+  display: flex;
+  gap: 10px;
+}
+.categoria h2 {
+  width: 150px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 18px;
+  text-align: center;
+}
+.midia video {
+  display: block;
+  width: 100%;
+  margin: auto;
+  border-radius: 18px;
+}
+.curso > p {
+  font-size: 32px;
+  font-weight: bold;
+}
+.curso ul {
+  gap: 18px;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+.curso li {
+  border-radius: 10px;
+  width: 190px;
+  text-align: center;
+  padding: 12px 8px;
+}
+.curso a {
+  color: white;
+}
+#objetivos,
+#carga,
+#grade,
+.texto-extra {
+  margin-top: 28px;
+  padding: 24px;
+  border-radius: 14px;
+}
+#objetivos h2,
+#carga h2,
+#grade h2,
+.texto-extra h2 {
+  text-align: center;
+  font-size: 25px;
+}
+#objetivos p,
+#carga p,
+#grade p,
+.texto-extra p {
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: justify;
+}
+#grade ul {
+  padding: 0;
+  list-style: none;
+}
+#grade li {
+  padding: 9px;
+}
+.rodape-conteudo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  border-radius: 14px 14px 0 0;
+}
+.rodape-conteudo a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ADMINISTRAÇÃO */
+.pagina-adm .navegacao,
+.pagina-adm .rodape-conteudo {
+  background: #5b3a29;
+}
+.pagina-adm .navegacao a {
+  color: #f7e7d5;
+}
+.pagina-adm .curso {
+  padding: 28px;
+  background: #fff8f1;
+  border-left: 7px solid #a9632c;
+}
+.pagina-adm .curso h1 {
+  color: #5b3a29;
+}
+.pagina-adm .categoria h2 {
+  background: #e9d3bf;
+  color: #5b3a29;
+  border-color: #a9632c;
+}
+.pagina-adm .curso > p {
+  color: #a9632c;
+}
+.pagina-adm .curso li {
+  background: #a9632c;
+}
+.pagina-adm #objetivos,
+.pagina-adm #carga,
+.pagina-adm #grade {
+  background: #f4e7da;
+  border-left: 5px solid #a9632c;
+}
+.pagina-adm .texto-extra {
+  background: #5b3a29;
+  color: white;
+}
+
+/* INFORMÁTICA */
+.pagina-info {
+  background: #e8ecf2;
+  color: #17202a;
+}
+.pagina-info .navegacao,
+.pagina-info .rodape-conteudo {
+  background: #202a36;
+}
+.pagina-info .navegacao a {
+  color: #8fd3ff;
+}
+.pagina-info .curso {
+  padding: 34px;
+  background: #18222d;
+  color: #edf6fc;
+  border-radius: 18px;
+}
+.pagina-info .categoria h2 {
+  border-color: #3c9bd3;
+  color: #8fd3ff;
+}
+.pagina-info .curso > p {
+  color: #8fd3ff;
+}
+.pagina-info .curso li {
+  background: #2b526b;
+  border: 1px solid #3c9bd3;
+}
+.pagina-info #objetivos,
+.pagina-info #carga,
+.pagina-info #grade {
+  background: #f7f9fb;
+  border-top: 4px solid #3c9bd3;
+}
+.pagina-info #grade li {
+  background: #e3f2fa;
+  border-left: 4px solid #3c9bd3;
+}
+.pagina-info .texto-extra {
+  background: #202a36;
+  color: white;
+}
+
+/* ENFERMAGEM */
+.pagina-enf {
+  background: #f5f8f6;
+  color: #30443a;
+}
+.pagina-enf .navegacao,
+.pagina-enf .rodape-conteudo {
+  background: #3e6658;
+}
+.pagina-enf .navegacao a {
+  color: #e8f4ee;
+}
+.pagina-enf .curso {
+  text-align: center;
+  padding: 20px 20px 34px;
+}
+.pagina-enf .curso h1 {
+  color: #315447;
+}
+.pagina-enf .categoria,
+.pagina-enf .curso ul {
+  justify-content: center;
+}
+.pagina-enf .categoria h2 {
+  color: #3e6658;
+  border-color: #7daf9a;
+  background: #e5f1eb;
+}
+.pagina-enf .curso > p {
+  color: #4b806a;
+}
+.pagina-enf .curso li {
+  background: #7daf9a;
+  border-radius: 30px;
+}
+.pagina-enf #objetivos,
+.pagina-enf #carga,
+.pagina-enf #grade {
+  background: white;
+  border: 1px solid #c9ddd3;
+}
+.pagina-enf .texto-extra {
+  background: #dcebe4;
+}
